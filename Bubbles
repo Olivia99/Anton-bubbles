@@ -58,7 +58,7 @@ function draw() {
       }
       if (isTouch) {  //if isTouch is true
         score++;  //add one to the score
-        print(score)
+        print('score =' + score)
       }
       if (bubbles[i].y < 45) {
         bubbles[i].a = 1;
